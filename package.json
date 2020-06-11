@@ -1,0 +1,60 @@
+{
+  "name": "poker-odds-calc-test",
+  "version": "0.0.17",
+  "description": "Test npm publish",
+  "license": "MIT",
+  "dependencies": {
+    "@types/argv": "0.0.4",
+    "argv": "0.0.2",
+    "lodash": "^4.17.14"
+  },
+  "devDependencies": {
+    "@types/es6-shim": "^0.31.39",
+    "@types/lodash": "^4.14.136",
+    "@types/mocha": "^5.2.5",
+    "@types/node": "^10.12.18",
+    "mocha": "^6.1.4",
+    "request": "^2.88.2",
+    "ts-node": "^8.3.0",
+    "tslint": "^5.18.0",
+    "typescript": "^2.9.2"
+  },
+  "bin": {
+    "poker-odds-calc-test": "./dist/lib/bin/poker-odds-calc.js"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "main": "./dist/index.js",
+  "typings": "./dts/index.d.ts",
+  "scripts": {
+    "build": "rm -rf dist/* && rm -rf dts/* && tsc",
+    "test": "mocha ./dist/test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/surbhitrao/poker-odds-calc.git"
+  },
+  "keywords": [
+    "poker",
+    "odds",
+    "odds calculator",
+    "texas hold'em",
+    "texas holdem",
+    "shortdeck texas hold'em",
+    "6+ texas hold'em",
+    "six plus texas hold'em",
+    "omaha",
+    "omaha hi",
+    "hand equity",
+    "equity"
+  ],
+  "bugs": {
+    "url": "https://github.com/surbhitrao/poker-odds-calc/issues"
+  },
+  "homepage": "https://github.com/surbhitrao/poker-odds-calc#readme",
+  "directories": {
+    "test": "test"
+  },
+  "author": "Test"
+}
