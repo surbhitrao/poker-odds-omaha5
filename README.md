@@ -1,5 +1,5 @@
 # Poker Odds Calc
-Forked from https://github.com/siavashg87/poker-odds-calc to support Omaha 5 card odds
+Forked from the excellent https://github.com/siavashg87/poker-odds-calc to support Omaha 5 card odds
 
 ## Installation
 
