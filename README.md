@@ -1,6 +1,16 @@
 # Poker Odds Calc
-# Forked from https://github.com/siavashg87/poker-odds-calc to support Omaha 5 card odds
+Forked from https://github.com/siavashg87/poker-odds-calc to support Omaha 5 card odds
 
 
 Fastest and most accurate node module for calculating odds of poker games Texas Hold'em and Omaha 5 card.
 
+## Installation
+
+```bash
+npm install -g poker-odds-calc-test
+```
+
+### Usage
+
+```bash
+poker-odds-calc-test -g omaha -p 5h5s9s9cTd -p 4s6d7h8sJc -p 4d6s7dJsQs -p AsAdAcAhKs -b KdJhJdQd4h
